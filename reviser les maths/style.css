@@ -1,0 +1,45 @@
+/* dimensionner la page et le squelette DEBUT */
+*{
+	font-family: cursive, Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	font-size: 1.1em;
+}
+body{
+	min-height: 100vh;
+	padding: 20px 0px 0px 20px;
+}
+body,main, section, footer{
+	display: flex;
+}
+body, main, footer{
+	flex-direction: column;
+}
+main{
+	flex:5;
+	margin-top: 5px;
+	border-bottom: 5px solid black;
+	border-radius: 0px 0px 10px 10px;
+}footer{
+	flex:1;
+}
+section{
+	flex: 1;
+	flex-direction: column;
+}h2 + p{
+	align-self: center;
+	border-left: 3px solid black;
+		border-radius: 10px 0px 0px 10px;
+}
+img{
+	margin: auto;
+	border-radius: 20px;
+}
+#menu{
+	font-size: 30px;
+	position: fixed;
+		top: 0px;
+		left: 0px;
+}
+/* dimensionner la page et le squelette FIN */
+

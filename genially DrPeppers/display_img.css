@@ -1,0 +1,10 @@
+#carte_waco, #entier, #partie1, #partie2, #partie3{
+    display: none;
+}
+#icon_carte_waco, #icon_entier, #icon_partie1, #icon_partie2, #icon_partie3{
+    font-size: 40px;
+    line-height: 100px;
+}
+#iframe_genially{
+    display: none;
+}
