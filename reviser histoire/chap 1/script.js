@@ -4,14 +4,14 @@ const tab = " <br /> <i class='fas fa-arrow-circle-right' style='margin-left: 30
 const importantTriangle = " <i class='fas fa-exclamation-triangle'></i>"
 ////////////////////                   PARTIE SUR DOLEANCES                  /////////////////////////////
 //contenu partie une sur 1789
-const cahierDeDoleancesH1 = `<h1> ${importantTriangle}Revolution francaise (1789-1815)</h1>`
+const cahierDeDoleancesH1 = `<h1> ${importantTriangle}Revolution francaise a l empire  (1789-1815)</h1>`
 const cahierDeDoleancesH2 = '<h2>' + "L'annee 1789: Cahier de doléances"  +'</h2>'
 
 const cahierDeDoleancesDef = `<p> ${tab} cahier déstiné au roi où sont consignés des voeux et des plaintes/demandes<strong>(doléances)</strong>.
 <br />
 ${tab}Les 3 ordres ont des revendications, parfois communes </span> et ça montre que toute la société aspire au changement.</p>`;
 
-const cahierDeDeDoleancesContenu = `<p> ${tab} On notera comme doleances du Tiers etat: <ul><li>abolition des lettres cachées </li><li>Justice equitable</li><li>1vote par tete</li><li>impots equitables</li> </ul> </p>`;
+const cahierDeDeDoleancesContenu = `<p> ${tab} On notera comme doleances du Tiers etat: <ul><strong><li>abolition des lettres cachées </li><li>Justice equitable</li><li>1vote par tete</li><li>impots equitables</li> </strong></ul> </p>`;
 //</span sert au .CSS ligne 29
 
 writeMain.innerHTML = `${cahierDeDoleancesH1} <section>  ${cahierDeDoleancesH2} <span>${cahierDeDoleancesDef} ${cahierDeDeDoleancesContenu}</span> </section>`
